@@ -1,0 +1,44 @@
+_id: req_wrk_4c84c58c816742318587e17aa7b528f174a7a059
+type: Request
+parentId: fld_wrk_4c84c58c816742318587e17aa7b528f11b034c38
+modified: 1616403067788
+created: 1616402945400
+url: "{{ base_url }}/pet"
+name: Update an existing pet
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5d14e467c82e4ac2a1d1df2cf03bd1e2
+authentication: {}
+metaSortKey: -1616402945400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
